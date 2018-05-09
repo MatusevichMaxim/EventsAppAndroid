@@ -1,0 +1,12 @@
+EventApp.MainActivity, EventApp;md5b08c782cf9319c3de44b6835de7e19a8.MainActivity
+EventApp.MainActivity, EventApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b08c782cf9319c3de44b6835de7e19a8.MainActivity
+EventApp.MainActivity;md5b08c782cf9319c3de44b6835de7e19a8.MainActivity
+eventapp.MainActivity;md5b08c782cf9319c3de44b6835de7e19a8.MainActivity
+EventApp.Adapter.CardsAdapter, EventApp;md5704b81233a8e217f4bc2763dd2ee8dc7.CardsAdapter
+EventApp.Adapter.CardsAdapter, EventApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5704b81233a8e217f4bc2763dd2ee8dc7.CardsAdapter
+EventApp.Adapter.CardsAdapter;md5704b81233a8e217f4bc2763dd2ee8dc7.CardsAdapter
+eventapp.adapter.CardsAdapter;md5704b81233a8e217f4bc2763dd2ee8dc7.CardsAdapter
+EventApp.Classes.MainMenuActivity, EventApp;md59082c4341e2e21f9f4176037093fb5c7.MainMenuActivity
+EventApp.Classes.MainMenuActivity, EventApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59082c4341e2e21f9f4176037093fb5c7.MainMenuActivity
+EventApp.Classes.MainMenuActivity;md59082c4341e2e21f9f4176037093fb5c7.MainMenuActivity
+eventapp.classes.MainMenuActivity;md59082c4341e2e21f9f4176037093fb5c7.MainMenuActivity
