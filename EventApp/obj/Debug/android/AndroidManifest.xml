@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.iit.EventApp">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Holo" android:name="android.app.Application" android:debuggable="true">
@@ -12,6 +13,7 @@
       </intent-filter>
     </activity>
     <activity android:label="MainMenuActivity" android:screenOrientation="portrait" android:name="md59082c4341e2e21f9f4176037093fb5c7.MainMenuActivity" />
+    <activity android:label="ManagersActivity" android:screenOrientation="portrait" android:name="md59082c4341e2e21f9f4176037093fb5c7.ManagersActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.iit.EventApp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

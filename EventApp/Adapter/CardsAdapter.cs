@@ -8,6 +8,15 @@ using EventApp.Model;
 
 namespace EventApp.Adapter
 {
+    public class ViewHolder : Java.Lang.Object
+    { 
+        public TextView Type { get; set; }
+        public TextView Date { get; set; }
+        public TextView Client { get; set; }
+        public TextView PersonsCount { get; set; }
+        public TextView Location { get; set; }
+    }
+
     public class CardsAdapter : BaseAdapter<CardModel>
     {
         private Context mContext;
@@ -51,6 +60,10 @@ namespace EventApp.Adapter
             date.SetTypeface(Constants.Instance.AEH, Android.Graphics.TypefaceStyle.Bold);
 
             type.Text = mItems[position].EventType;
+            date.Text = mItems[position].EventDate;
+            client.Text = mItems[position].ClientName;
+            personsCount.Text = $"{mItems[position].Persons} persons";
+            location.Text = mItems[position].Location;
 
             return row;
         }

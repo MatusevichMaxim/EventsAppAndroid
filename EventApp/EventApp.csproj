@@ -42,6 +42,24 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="SQLitePCLRaw.core">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.1.5\lib\MonoAndroid\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.lib.e_sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.lib.e_sqlite3.android.1.1.5\lib\MonoAndroid\SQLitePCLRaw.lib.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.provider.e_sqlite3.android.1.1.5\lib\MonoAndroid\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.5\lib\MonoAndroid\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.5\lib\MonoAndroid\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>..\packages\sqlite-net-pcl.1.4.118\lib\netstandard1.1\SQLite-net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -51,11 +69,18 @@
     <Compile Include="Classes\MainMenuActivity.cs" />
     <Compile Include="Model\CardModel.cs" />
     <Compile Include="Adapter\CardsAdapter.cs" />
+    <Compile Include="Resources\DataHelper\DataBase.cs" />
+    <Compile Include="Model\ManagerModel.cs" />
+    <Compile Include="Helpers\ManagersStatus.cs" />
+    <Compile Include="Model\AccountModel.cs" />
+    <Compile Include="Classes\ManagersActivity.cs" />
+    <Compile Include="Adapter\ManagersAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -82,6 +107,12 @@
     <AndroidResource Include="Resources\drawable\cancel_border.xml" />
     <AndroidResource Include="Resources\layout\AdminPanel.axml" />
     <AndroidResource Include="Resources\drawable\default_border.xml" />
+    <AndroidResource Include="Resources\Raw\Events.db" />
+    <AndroidResource Include="Resources\layout\ManagersMenu.axml" />
+    <AndroidResource Include="Resources\layout\ManagerCard.axml" />
+    <AndroidResource Include="Resources\drawable\ic_phone.png" />
+    <AndroidResource Include="Resources\drawable\ic_person.png" />
+    <AndroidResource Include="Resources\drawable\panel_border.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -89,6 +120,8 @@
     <Folder Include="Classes\" />
     <Folder Include="Model\" />
     <Folder Include="Adapter\" />
+    <Folder Include="Resources\DataHelper\" />
+    <Folder Include="Resources\Raw\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AEH.ttf" />

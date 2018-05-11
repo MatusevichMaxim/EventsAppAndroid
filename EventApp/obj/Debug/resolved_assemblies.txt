@@ -2,6 +2,12 @@
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/Java.Interop.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/Mono.Android.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/mscorlib.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLite-net.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Core.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Runtime.dll
@@ -19,5 +25,8 @@
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Net.Http.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.ServiceModel.Internals.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Linq.Expressions.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.Globalization.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/Mono.Security.dll
 /Users/air/Projects/EventApp/EventApp/obj/Debug/android/assets/System.ComponentModel.Composition.dll

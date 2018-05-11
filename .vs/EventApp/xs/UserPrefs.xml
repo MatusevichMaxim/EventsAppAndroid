@@ -1,14 +1,26 @@
 ﻿<Properties StartupConfiguration="{2833E9D5-A63E-4175-9A6D-B48925154C93}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventApp/Classes/MainMenuActivity.cs">
     <Files>
-      <File FileName="EventApp/Classes/MainMenuActivity.cs" Line="169" Column="2" />
+      <File FileName="EventApp/Classes/MainMenuActivity.cs" Line="159" Column="37" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EventApp" expanded="True" selected="True">
+            <Node name="EventApp" expanded="True">
+              <Node name="Classes" expanded="True" />
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.EventApp AndroidDesignerPreferredDevice="pixel" PreferredExecutionTarget="Android.Y5BEFM8HVO6HUCNJ" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.EventApp PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>
